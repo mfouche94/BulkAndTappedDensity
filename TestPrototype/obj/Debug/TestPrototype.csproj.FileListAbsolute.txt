@@ -1,0 +1,10 @@
+D:\TestProtoype\TestPrototype\TestPrototype\bin\Debug\TestPrototype.exe.config
+D:\TestProtoype\TestPrototype\TestPrototype\bin\Debug\TestPrototype.exe
+D:\TestProtoype\TestPrototype\TestPrototype\bin\Debug\TestPrototype.pdb
+D:\TestProtoype\TestPrototype\TestPrototype\obj\Debug\TestPrototype.csproj.AssemblyReference.cache
+D:\TestProtoype\TestPrototype\TestPrototype\obj\Debug\TestPrototype.Properties.Resources.resources
+D:\TestProtoype\TestPrototype\TestPrototype\obj\Debug\TestPrototype.csproj.GenerateResource.cache
+D:\TestProtoype\TestPrototype\TestPrototype\obj\Debug\TestPrototype.csproj.CoreCompileInputs.cache
+D:\TestProtoype\TestPrototype\TestPrototype\obj\Debug\TestPrototype.exe
+D:\TestProtoype\TestPrototype\TestPrototype\obj\Debug\TestPrototype.pdb
+D:\TestProtoype\TestPrototype\TestPrototype\obj\Debug\TestPrototype.BulkAndTappedDensity.resources
