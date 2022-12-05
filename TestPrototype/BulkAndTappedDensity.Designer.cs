@@ -107,13 +107,15 @@ namespace TestPrototype
             // 
             // textBoxInterParticlePorosity
             // 
+            this.textBoxInterParticlePorosity.Enabled = false;
             this.textBoxInterParticlePorosity.Location = new System.Drawing.Point(184, 180);
             this.textBoxInterParticlePorosity.Name = "textBoxInterParticlePorosity";
             this.textBoxInterParticlePorosity.Size = new System.Drawing.Size(100, 20);
             this.textBoxInterParticlePorosity.TabIndex = 7;
             // 
             // textBoxHausnerRatio
-            // 
+            //
+            this.textBoxHausnerRatio.Enabled = false;
             this.textBoxHausnerRatio.Location = new System.Drawing.Point(184, 214);
             this.textBoxHausnerRatio.Name = "textBoxHausnerRatio";
             this.textBoxHausnerRatio.Size = new System.Drawing.Size(100, 20);
@@ -121,6 +123,7 @@ namespace TestPrototype
             // 
             // labelCarrIndex
             // 
+            this.labelCarrIndex.AutoSize = true;
             this.labelCarrIndex.AutoSize = true;
             this.labelCarrIndex.Location = new System.Drawing.Point(45, 253);
             this.labelCarrIndex.Name = "labelCarrIndex";
