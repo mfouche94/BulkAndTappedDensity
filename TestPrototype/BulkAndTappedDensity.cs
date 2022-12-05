@@ -49,6 +49,25 @@ namespace TestPrototype
         //Calculates Hausner Ratio, Inter-particle Porosity and Carr Index
         private void btnCalculateParameters_Click(object sender, EventArgs e)
         {
+             bool testBulkDensity = double.TryParse(textBoxBulkDensity.Text, out bulkDensity);
+            if (testBulkDensity == false)
+            {
+                MessageBox.Show("Bulk Density value invalid");
+                return;
+            }
+            bool testTappedDensity = double.TryParse(textBoxTappedDensity.Text, out tappedDensity);
+            if (testTappedDensity == false)
+            {
+                MessageBox.Show("Tapped Density value invalid");
+                return;
+            }
+            bulkDensity = Convert.ToDouble(textBoxBulkDensity.Text);
+            tappedDensity = Convert.ToDouble(textBoxTappedDensity.Text);
+            if (bulkDensity == 0 || tappedDensity == 0)
+            {
+                MessageBox.Show("Density values must be greater than zero");
+                return;
+            }
             bulkDensity = Convert.ToDouble(textBoxBulkDensity.Text);
             tappedDensity = Convert.ToDouble(textBoxTappedDensity.Text);
             hausnerRatio = tappedDensity / bulkDensity;
